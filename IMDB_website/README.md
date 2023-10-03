@@ -8,4 +8,4 @@ The libraries used in this project is:
 * openpyxl: To create a new excel file and then rename the sheet name and then load data into an excel file.
 
 The python code is:
-https://github.com/arunsacharyadev/web_scraping_projects/blob/a0a4e2a8cecaf2631dbaac0489256136444e230d/IMDB_website/scrape_IMDB.py#L1C1-L53C26
+https://github.com/arunsacharyadev/web_scraping_projects/blob/7ab1e2487d64de1cac4bfd7ce8acd2febea61ffa/IMDB_website/scrape_IMDB.py#L1-L52
