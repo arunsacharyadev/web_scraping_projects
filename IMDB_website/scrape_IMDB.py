@@ -25,16 +25,15 @@ try:
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
         }
     response = requests.get(url,headers=headers)
-
     response.raise_for_status()
 
     soup = BeautifulSoup(response.content,"html.parser")
-
     movies = soup.find("ul",class_="ipc-metadata-list ipc-metadata-list--dividers-between sc-3f13560f-0 sTTRj compact-list-view ipc-metadata-list--base")
     
     table_columns = ["Movie Rank","Movie Title","Movie Release Year","Movie Duration","Movie Rating","Movie Rating Vote Count"]
     sheet.append(table_columns)
-    index = 1
+
+    # iterating on individual items
     for movie in movies:
         movie_rank = movie.find("h3",class_="ipc-title__text").text.split('.',1)[0]
         movie_title = movie.find("h3",class_="ipc-title__text").text.split('.',1)[1].strip()
