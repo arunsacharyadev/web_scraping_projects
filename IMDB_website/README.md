@@ -10,4 +10,4 @@ The libraries used in this project is:
 The python code is:
 https://github.com/arunsacharyadev/web_scraping_projects/blob/d9359cdd09590fc93fdbe2d83cbf7c711ef9ee4d/IMDB_website/scrape_IMDB.py#L1
 
-https://github.com/arunsacharyadev/web_scraping_projects/blob/43b787fa6d3f527032f828d350e8748bf443c2e8/IMDB_website/scrape_IMDB.py#L1-L60
+https://github.com/arunsacharyadev/web_scraping_projects/blob/43b787fa6d3f527032f828d350e8748bf443c2e8/IMDB_website/scrape_IMDB.py#L1-L54
