@@ -5,7 +5,7 @@ import requests
 
 # function for converting K,M,B words to numeric
 def value_to_float(input):
-    input = input.upper()
+    input = str(input).upper()
     if('K' in input):
         return int(float(input.replace('K',''))*1000)
     elif('M' in input):
